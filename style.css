@@ -370,3 +370,99 @@ nav{
    
    } 
 }
+
+/* icon style section start */
+ .icon-container{
+    display: grid;
+    grid-template-columns: repeat(5 , 250px);
+    gap: 5px; 
+    padding: 0px 70px 0px 40px;
+}
+.icon-photo-with-title{
+    display: flex;
+    align-items: center;
+    max-width: 210px;
+}
+.just{
+     width: 100%; 
+     margin-left: 70px; 
+} 
+.img-icon{
+    width: 30px;
+}
+.icon-title{
+    margin-left: 8px;
+}
+.icon-photo-with-title:hover{
+    border-radius: 50px;
+    background: #b51111;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #FF42A5;
+    padding: 10px;
+}
+/* icon style section end */
+/* icon Section responsive mobile view */ 
+@media screen and (max-width: 576px){
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        
+    }
+    .icon-photo-with-title{
+        display: flex;
+        align-items: center;
+     
+    }
+    .just{
+        margin-left: 0;
+    }
+    
+    .icon-title{
+        
+        font-size: .35rem;
+    }
+    .icon-photo-with-title:hover{
+        border-radius: 50px;
+        background: #b51111;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 1px solid #FF42A5;
+        padding: 10px;
+    }
+}
+/* icon Section responsive tablet view */ 
+@media screen and (min-width: 576px) and (max-width:992px){
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        
+    }
+    .icon-photo-with-title{
+        display: flex;
+        align-items: center;
+     
+    }
+    .just{
+        margin-left: 0;
+    }
+    
+    .icon-title{
+        
+        font-size: .8rem;
+    }
+    .icon-photo-with-title:hover{
+        border-radius: 50px;
+        background: #b51111;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 1px solid #FF42A5;
+        padding: 10px;
+    }
+}
