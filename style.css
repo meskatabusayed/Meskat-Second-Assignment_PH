@@ -107,7 +107,7 @@ nav{
         
     }
     .list-follow{
-        width: 100%; 
+        width: 100%;
         
     }
 }
@@ -195,4 +195,83 @@ nav{
         margin-top: 30px;
     }
 }
+
+/* Online Games Section start */
+.online-games-section{
+    margin-top: 80px;
+}
+.games-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.games-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.online-games-section-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+.games-photo , .games-description-9{
+    width: 200px;
+}
+.games-photo:hover{
+    /* border: 2px solid #F948B2; */
+    border-radius: 10px;
+    
+
+}
+
+/* Online Games Section responsive mobile view */ 
+@media screen and (max-width: 576px){
+    .online-games-section-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .games-title , .funny{
+        font-size: 1.6rem;
+    }
+    .games-description{
+        font-size: .8rem;
+    }
+}
+/* Online Games Section responsive tablet view */ 
+@media screen and (min-width: 576px) and (max-width:992px){
+    .online-games-section-card{
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
+
+/* Play instantly section start */
+/* .div23{
+    padding: 300px;
+}
+.rr{
+    position: relative;
+}
+.div21{
+    top: -300px;
+    left: -160px;
+
+} */
+
 
