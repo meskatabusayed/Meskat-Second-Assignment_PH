@@ -238,6 +238,7 @@ nav{
     
 
 }
+/* Online Games Section end */
 
 /* Online Games Section responsive mobile view */ 
 @media screen and (max-width: 576px){
@@ -262,16 +263,110 @@ nav{
 
 
 /* Play instantly section start */
-/* .div23{
-    padding: 300px;
+
+.play-instantly-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 80px;
+    
+
 }
-.rr{
-    position: relative;
+.play-instantly-title{
+    
+    
+    font-size: 2.6rem;
+    font-weight: 700;
+    
 }
-.div21{
-    top: -300px;
-    left: -160px;
+.instantly-title2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-description{
+    color: #534C64;
+    font-size: .8rem;
+    font-weight: 400;
+}
 
-} */
+.photo{
+     position: relative; 
+   
+}
+.photo1-img{
+    width: 300px;
+}
+.photo2-img{
+    width: 150px;
+}
 
+ .photo2{
+    top: -110px;
+    left: -60px;
 
+} 
+/* Play instantly section end */
+
+/* Play instantly Section responsive mobile view */ 
+@media screen and (max-width: 576px){
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .play-instantly-title , .instantly-title2{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .play-instantly-description{
+        font-size: .7rem;
+        margin-bottom: 20px;
+    }
+    .photo{
+        position: relative; 
+      
+   }
+   .photo1-img{
+       width: 200px;
+   }
+   .photo2-img{
+       width: 100px;
+   }
+   
+    .photo2{
+       top: -90px;
+       left: -40px;
+   
+   } 
+    
+}
+/* Play instantly Section responsive tablet view */ 
+@media screen and (min-width: 576px) and (max-width:992px){
+    .play-instantly-container{
+        flex-direction: column;
+    }
+    .play-instantly-title , .instantly-title2{
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+    .play-instantly-description{
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+    .photo{
+        position: relative; 
+      
+   }
+   .photo1-img{
+       width: 300px;
+   }
+   .photo2-img{
+       width: 150px;
+   }
+   
+    .photo2{
+       top: -110px;
+       left: -60px;
+   
+   } 
+}
